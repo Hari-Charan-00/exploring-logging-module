@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(filename='asset_inventory.log', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-URL = "https://netenrich.opsramp.com/"
+URL = ""
 CLIENT_ID = ""
 CLIENT_SECRET = ""
 
