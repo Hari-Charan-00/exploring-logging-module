@@ -281,12 +281,7 @@ def get_device_details(client_id, client_name, partner_name, device_name, device
     return None
 
 def main():
-    partners_data = {
-        "b46ba025-0c99-416d-955d-10129cf4ed15": "Helixstorm",
-"9384a74d-5370-573a-0608-9a14a25b234e": "All Covered",
-    "fee7887c-1c4e-90aa-b4bc-e6870ac060fc": "Agiliti",
-    "70d37846-efe6-bc75-2907-8ca6e0a9c1f5": "Trace3"
-    }
+    partners_data = {}
 
     all_devices_info = []
     partner_counter = 0
