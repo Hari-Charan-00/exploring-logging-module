@@ -9,8 +9,8 @@ logging.basicConfig(filename='asset_inventory.log', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 URL = "https://netenrich.opsramp.com/"
-CLIENT_ID = "cHrCgP3TWVtv3EwMzah3hfjH34eXUHM8"
-CLIENT_SECRET = "c55PPRzMPg3BWp5tXZMwwT8Gzpq6GmUbBwWnAfdhJZjmVHfXB59ZMM5rZY3kA5wf"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 class TokenManager:
     _instance = None
